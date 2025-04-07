@@ -6,4 +6,8 @@ figcaption {
 	background-color: gray;
 	border-radius: 15px;
 	padding: .5em;
+	img {
+		max-height: 10em;
+		object-fit: contain;
+	}
 }

@@ -1,5 +1,17 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: blueviolet;
+	img {
+		width: 5em;
+		height: 5em;
+		border-radius: 50px;
+	}
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		gap: 1em;
+	}
 }
