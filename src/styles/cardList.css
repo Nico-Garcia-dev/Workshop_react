@@ -1,6 +1,9 @@
 .Card {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 2em;
-	justify-items: center;
+	justify-content: space-evenly;
+	grid-auto-columns: max-content;
+	grid-template-areas: "a a a a";
+	gap: 3em;
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
