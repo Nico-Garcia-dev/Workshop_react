@@ -1,5 +1,6 @@
 import "./App.css";
 import CardList from "./components/cardList";
+import Footer from "./components/footer";
 import NavBar from "./components/NavBar";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 			<main>
 				<NavBar />
 				<CardList />
+				<Footer />
 			</main>
 		</>
 	);

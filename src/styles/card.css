@@ -2,10 +2,13 @@ figcaption {
 	width: 8em;
 	height: 100%;
 	display: flex;
+	justify-content: space-evenly;
 	flex-direction: column;
 	background-color: gray;
 	border-radius: 15px;
 	padding: .5em;
+
+	box-shadow: 0.14em 0.125em 0.25em rgb(17, 17, 17);
 	img {
 		max-height: 10em;
 		object-fit: contain;

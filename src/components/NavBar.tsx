@@ -8,9 +8,15 @@ export default function NavBar() {
 				alt="logo"
 			/>
 			<ul>
-				<li>A propros</li>
-				<li>personnages</li>
-				<li>acceuil</li>
+				<li>
+					<a href="#Apropos">A propros</a>
+				</li>
+				<li>
+					<a href="#personnages">Personnages</a>
+				</li>
+				<li>
+					<a href="#acceuil">Acceuil</a>
+				</li>
 			</ul>
 		</nav>
 	);
