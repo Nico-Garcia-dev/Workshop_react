@@ -7,11 +7,13 @@ nav {
 		width: 5em;
 		height: 5em;
 		border-radius: 50px;
+		margin-left: 1em;
 	}
 	ul {
 		list-style: none;
 		display: flex;
 		flex-direction: row;
 		gap: 1em;
+		margin-right: 2em;
 	}
 }
