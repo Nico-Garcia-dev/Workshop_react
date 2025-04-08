@@ -1,4 +1,4 @@
-export type props = {
+export type simpsonsType = {
 	id: number;
 	image: string;
 	firstName: string;
