@@ -1,0 +1,16 @@
+footer {
+	display: flex;
+	background-color: blueviolet;
+	height: 3em;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4em;
+	button {
+		border-radius: 10px;
+		box-shadow: 0.14em 0.125em 0.25em rgb(17, 17, 17);
+		padding: .4em;
+		font-size: 1em;
+		background-color: blueviolet;
+		border-color: blueviolet;
+	}
+}
